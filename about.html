@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | My Blog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .about-section {
+      max-width: 1000px;
+      margin: 80px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .about-image {
+      flex: 1 1 300px;
+    }
+
+    .about-image img {
+      width: 100%;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .about-content {
+      flex: 2 1 500px;
+    }
+
+    .about-content h1 {
+      font-size: 36px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .about-content p {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .about-content a {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #333;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .about-content a:hover {
+      background-color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .about-section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about-content h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="about-section">
+    <div class="about-image">
+      <img src="Images/Holi.jpg" alt="About Me">
+    </div>
+    <div class="about-content">
+      <h1>About My Blog</h1>
+      <p>Welcome to <strong>My Blog</strong> — your go-to place for insightful articles on Travel, Technology, Lifestyle, and Education. Whether you're here to get inspired for your next adventure, explore the latest tech trends, or find tips to improve your daily life, we've got something for you.</p>
+      
+      <p>My mission is simple: to provide high-quality, engaging, and informative content that makes your life a little better, one post at a time. I believe in sharing knowledge and experiences to build a community of curious and motivated people.</p>
+
+      <a href="Post.html">Explore Posts</a>
+    </div>
+  </section>
+
+</body>
+</html>
